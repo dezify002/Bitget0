@@ -4,5 +4,5 @@ services:
     env: python
     plan: free
     buildCommand: pip install -r requirements.txt
-    startCommand: python bot.py
+    startCommand: v10_1_live_test.py
     autoDeploy: true
